@@ -34,6 +34,10 @@ class TestStatistics(unittest.TestCase):
     def test_top(self):
         p = self.statistics.top(3, SortBy.POINTS)
         self.assertEqual(p != None, True)
+        p = self.statistics.top(3, SortBy.ASSISTS)
+        self.assertEqual(p != None, True)
+        p = self.statistics.top(3, SortBy.GOALS)
+        self.assertEqual(p != None, True)
 
     def test_team(self):
         team = self.statistics.team('EDM')
