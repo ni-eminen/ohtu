@@ -1,8 +1,14 @@
+from constants import SortBy
 from player_reader import PlayerReader
 
 
-def sort_by_points(player):
-    return player.points
+def sort_by_(player, sort_by: SortBy):
+    if sort_by is SortBy.GOALS:
+        return player.goals
+    elif sort_by is SortBy.POINTS:
+        return player.points
+    else:
+        return player.assists
 
 
 class Statistics:
@@ -25,11 +31,11 @@ class Statistics:
 
         return list(players_of_team)
 
-    def top(self, how_many):
+    def top(self, how_many, sort_by):
         sorted_players = sorted(
             self._players,
             reverse=True,
-            key=sort_by_points
+            key=lambda p: sort_by_(p, sort_by)
         )
 
         result = []

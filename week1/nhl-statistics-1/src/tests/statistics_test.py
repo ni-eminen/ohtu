@@ -3,6 +3,7 @@ import unittest
 from player_reader import PlayerReader
 from player import Player
 from statistics import Statistics
+from constants import SortBy
 
 
 class PlayerReaderStub:
@@ -31,7 +32,7 @@ class TestStatistics(unittest.TestCase):
         self.assertEqual(p, None)
 
     def test_top(self):
-        p = self.statistics.top(3)
+        p = self.statistics.top(3, SortBy.POINTS)
         self.assertEqual(p != None, True)
 
     def test_team(self):
