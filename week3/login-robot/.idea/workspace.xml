@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d732dada-0ce6-4447-a02b-f79f92dbf839" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/resource.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668945889573</updated>
-      <workItem from="1668945890726" duration="2567000" />
+      <workItem from="1668945890726" duration="8428000" />
     </task>
     <servers />
   </component>

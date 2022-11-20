@@ -1,4 +1,5 @@
 from entities.user import User
+import re
 
 
 class UserInputError(Exception):
@@ -34,6 +35,10 @@ class UserService:
         return user
 
     def validate(self, username, password):
+        if re.match("^[a-zA-Z0-9]{3,}$", username) and re.fullmatch('[A-Za-z\d]{8,}', password):
+            print('Ok')
+        else:
+            raise UserInputError("Error")
         if not username or not password:
             raise UserInputError("Username and password are required")
 
