@@ -9,7 +9,6 @@ class PlayerStats:
         for p in self.reader.players:
             if p.get_nationality() == nationality:
                 ps_of_n.append(p)
-                print(p.get_goals())
         ps_of_n.sort(key=lambda x: x.get_goals(), reverse=True)
 
-        return ps_of_n
+        return ps_of_n[0:10]
