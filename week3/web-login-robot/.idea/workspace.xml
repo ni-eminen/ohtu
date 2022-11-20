@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d732dada-0ce6-4447-a02b-f79f92dbf839" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user_service.py" afterDir="false" />
+    <list default="true" id="29f5778d-f27a-4f0d-8e81-14b27e707943" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../login-robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login-robot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/login.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/resource.robot" afterDir="false" />
     </list>
@@ -17,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HoKF7UxzeZ2je0qsAmKbaxcLew" />
+  <component name="ProjectId" id="2HokoPbD8cra8UQzpsPlqsXGFU7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,12 +60,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d732dada-0ce6-4447-a02b-f79f92dbf839" name="Changes" comment="" />
-      <created>1668945889573</created>
+      <changelist id="29f5778d-f27a-4f0d-8e81-14b27e707943" name="Changes" comment="" />
+      <created>1668958997450</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668945889573</updated>
-      <workItem from="1668945890726" duration="9096000" />
+      <updated>1668958997450</updated>
+      <workItem from="1668958998608" duration="5683000" />
     </task>
     <servers />
   </component>
@@ -70,6 +73,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/login_robot$index.coverage" NAME="index Coverage Results" MODIFIED="1668948704164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/web_login_robot$index.coverage" NAME="index Coverage Results" MODIFIED="1668959080163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/web_login_robot$app.coverage" NAME="app Coverage Results" MODIFIED="1668959069565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
