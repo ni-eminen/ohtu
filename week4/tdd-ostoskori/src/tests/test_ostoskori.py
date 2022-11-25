@@ -29,7 +29,7 @@ class TestOstoskori(unittest.TestCase):
     def test_add_two_of_the_same(self):
         self.kori.lisaa_tuote(self.maito)
         self.kori.lisaa_tuote(self.maito)
-        self.assertEqual(self.kori.tavaroita_korissa(), 2)
+        self.assertEqual(self.kori.tavaroita_korissa(), 1)
 
     def  test_the_price_is_righ_pt_2(self):
         self.kori.lisaa_tuote(self.maito)
@@ -55,3 +55,9 @@ class TestOstoskori(unittest.TestCase):
         self.kori.lisaa_tuote(self.maito)
         self.kori.lisaa_tuote(self.juusto)
         self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
+    def test_add_two_of_the_same_incr(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.lisaa_tuote(self.maito)
+        self.assertEqual((self.kori.tavaroita_korissa(), self.kori.ostokset()[0].lukumaara()), (1, 2))
+
