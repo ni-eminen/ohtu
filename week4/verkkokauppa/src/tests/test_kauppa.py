@@ -110,3 +110,6 @@ class TestKauppa(unittest.TestCase):
         self.kauppa.poista_korista(1)
         self.kauppa.tilimaksu("pekka", "12345")
         self.pankki_mock.tilisiirto.assert_called_with("pekka", ANY, "12345", ANY, 0)
+
+
+    #asddf
