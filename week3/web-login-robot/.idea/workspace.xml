@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f5778d-f27a-4f0d-8e81-14b27e707943" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../login-robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login-robot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668958997450</updated>
-      <workItem from="1668958998608" duration="5683000" />
+      <workItem from="1668958998608" duration="6488000" />
     </task>
     <servers />
   </component>
