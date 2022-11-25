@@ -25,3 +25,9 @@ class TestOstoskori(unittest.TestCase):
         self.kori.lisaa_tuote(self.maito)
         self.kori.lisaa_tuote(self.juusto)
         self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
+    def test_add_two_of_the_same(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.lisaa_tuote(self.maito)
+        self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
