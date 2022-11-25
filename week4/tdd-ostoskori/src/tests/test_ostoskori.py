@@ -61,3 +61,10 @@ class TestOstoskori(unittest.TestCase):
         self.kori.lisaa_tuote(self.maito)
         self.assertEqual((self.kori.tavaroita_korissa(), self.kori.ostokset()[0].lukumaara()), (1, 2))
 
+    def test_two_of_the_same_items_basket_contains_2_items_with_that_name(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.lisaa_tuote(self.maito)
+        item = self.kori.ostokset()[0]
+        count = item.lukumaara()
+        name = item.tuotteen_nimi()
+        self.assertEqual((count, name), (2, "Maito"))
