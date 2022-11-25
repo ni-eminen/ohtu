@@ -1,3 +1,5 @@
+from functools import reduce
+
 from tuote import Tuote
 from ostos import Ostos
 
@@ -7,14 +9,10 @@ class Ostoskori:
         # ostoskori tallettaa Ostos-oliota, yhden per korissa oleva Tuote
 
     def tavaroita_korissa(self):
-        amt = 0
-        for i in self.items:
-            amt += i.lukumaara()
-        return amt
+        return reduce(lambda a, b: a+b.lukumaara(), self.items, 0)
 
     def hinta(self):
-        return 0
-        # kertoo korissa olevien ostosten yhteenlasketun hinnan
+        return reduce(lambda a, b: a+b.hinta(), self.items, 0)
 
     def lisaa_tuote(self, lisattava: Tuote):
         self.items.append(Ostos(lisattava))
