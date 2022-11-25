@@ -31,7 +31,8 @@ class Ostoskori:
                 item.muuta_lukumaaraa(-1)
                 return
             elif poistettava_n == item.tuotteen_nimi() and item.lukumaara() == 1:
-                self.items.remove(i)
+                del self.items[i]
+
 
     def tyhjenna(self):
         pass

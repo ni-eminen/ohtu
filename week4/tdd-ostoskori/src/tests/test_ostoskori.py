@@ -74,3 +74,8 @@ class TestOstoskori(unittest.TestCase):
         self.kori.lisaa_tuote(self.maito)
         self.kori.poista_tuote(self.maito)
         self.assertEqual(self.kori.tavaroita_korissa(), 1)
+
+    def test_basket_mt_after_removing_only_el(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.poista_tuote(self.maito)
+        self.assertEqual(self.kori.tavaroita_korissa(), 0)
