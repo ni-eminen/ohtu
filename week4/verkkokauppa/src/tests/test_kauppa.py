@@ -113,3 +113,4 @@ class TestKauppa(unittest.TestCase):
 
 
     #asddf    #asddf    #asddf
+    #asddf    #asddf    #asddf
