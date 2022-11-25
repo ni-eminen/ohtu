@@ -112,4 +112,4 @@ class TestKauppa(unittest.TestCase):
         self.pankki_mock.tilisiirto.assert_called_with("pekka", ANY, "12345", ANY, 0)
 
 
-    #asddf
+    #asddf    #asddf    #asddf
