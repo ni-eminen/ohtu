@@ -68,3 +68,9 @@ class TestOstoskori(unittest.TestCase):
         count = item.lukumaara()
         name = item.tuotteen_nimi()
         self.assertEqual((count, name), (2, "Maito"))
+
+    def test_removing_item_with_two_of_them_in_the_basket(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.poista_tuote(self.maito)
+        self.assertEqual(self.kori.tavaroita_korissa(), 1)
