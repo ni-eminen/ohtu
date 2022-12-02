@@ -54,5 +54,4 @@ class TennisGame:
                     score = score + "-"
                     temp_score = self.m_score2
                 score = score + scores[temp_score]
-
         return score
