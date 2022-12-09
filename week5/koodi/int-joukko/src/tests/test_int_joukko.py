@@ -1,7 +1,6 @@
 import unittest
 from int_joukko import IntJoukko
 
-
 class TestIntJoukko(unittest.TestCase):
     def setUp(self):
         self.joukko = IntJoukko()
@@ -111,3 +110,4 @@ class TestIntJoukko(unittest.TestCase):
         odotettu = [1, 5, 6]
 
         self.assertListEqual(sorted(vastauksen_luvut), odotettu)
+

@@ -1,5 +1,4 @@
-import unittest
-from int_joukko import IntJoukko
+from tests.int_joukko import IntJoukko
 
 
 def main():
