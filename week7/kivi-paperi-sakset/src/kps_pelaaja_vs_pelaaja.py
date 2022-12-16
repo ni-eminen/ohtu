@@ -1,5 +1,5 @@
 from tuomari import Tuomari
-from kivi_sakset_paperi import KiviPaperiSakset
+from kivi_paperi_sakset import KiviPaperiSakset
 
 
 class KPSPelaajaVsPelaaja(KiviPaperiSakset):

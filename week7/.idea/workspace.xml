@@ -4,13 +4,26 @@
     <list default="true" id="717cf85c-1e91-4f94-9e94-14c1cd89aaab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/src/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/src/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_parempi_tekoaly.py" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_parempi_tekoaly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_pelaaja_vs_pelaaja.py" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_pelaaja_vs_pelaaja.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_tekoaly.py" beforeDir="false" afterPath="$PROJECT_DIR$/kivi-paperi-sakset/src/kps_tekoaly.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -63,11 +76,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671218054111</updated>
-      <workItem from="1671218056434" duration="1239000" />
+      <workItem from="1671218056434" duration="4296000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/week7$index.coverage" NAME="index Coverage Results" MODIFIED="1671222160292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kivi-paperi-sakset/src" />
+    <SUITE FILE_PATH="coverage/week7$kps_tekoaly.coverage" NAME="kps_tekoaly Coverage Results" MODIFIED="1671220904968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kivi-paperi-sakset/src" />
+    <SUITE FILE_PATH="coverage/week7$kivi_sakset_paperi.coverage" NAME="kivi_sakset_paperi Coverage Results" MODIFIED="1671219447358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kivi-paperi-sakset/src" />
   </component>
 </project>
